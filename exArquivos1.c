@@ -20,7 +20,7 @@ int main(){
 void preencherNotas(float notas[][3], char nomeArquivo[]){
     FILE *arq;
     arq = fopen(nomeArquivo, "r");
-    if(aeq == NULL){
+    if(arq == NULL){
         return;
     }
     //
